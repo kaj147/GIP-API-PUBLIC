@@ -10,7 +10,7 @@ namespace Gip_API.Controllers;
 public class RetrieveController : ControllerBase
 {
     [HttpGet("RetrieveComponents")]
-    public string RetrieveComponent()
+    public List<Component> RetrieveComponent()
     {
         return RetrieveService.RetrieveComponent();
     }   

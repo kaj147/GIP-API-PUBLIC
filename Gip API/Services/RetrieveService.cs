@@ -6,9 +6,9 @@ public class RetrieveService
 {
     private static readonly List<Component> _naam = new();
 
-    public static string RetrieveComponent()
+    public static List<Component> RetrieveComponent()
     {
-        return "kanker";
+        return _naam;
     }
 
     public static void AddNaam(Component item)
